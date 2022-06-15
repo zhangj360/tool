@@ -5,252 +5,252 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: US_6679+, server: 167.88.61.50, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: US_8091+, server: 167.88.61.50, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: US_2376+, server: 167.88.61.50, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: US_8009+, server: 38.91.101.62, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: US_6379+, server: 169.197.141.187, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: US_8009+ 2, server: 167.88.61.50, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: US_0443+, server: 38.91.101.62, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: US_9101+, server: 167.88.61.50, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: US_0443+ 2, server: 167.88.61.50, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: US_7307+, server: 38.91.101.62, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: US_6679+@WangCai_1, server: 167.88.61.50, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: US_8091+@WangCai_1, server: 167.88.61.50, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: US_2376+@WangCai_1, server: 167.88.61.50, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: US_8009+@WangCai_1, server: 38.91.101.62, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: US_6379+@WangCai_1, server: 169.197.141.187, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: US_8009+@WangCai_1 2, server: 167.88.61.50, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: US_0443+@WangCai_1, server: 38.91.101.62, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: US_9101+@WangCai_1, server: 167.88.61.50, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: US_0443+@WangCai_1 2, server: 167.88.61.50, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: US_7307+@WangCai_1, server: 38.91.101.62, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: 🇨🇭 瑞士(youtube阿伟科技), server: v2ray.wefuckgfw.ga, port: 2096, type: vmess, uuid: c0bc4a6f-74f9-49f3-b722-7ebb6aca17d7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /H8VswtUJ/, headers: {Host: v2ray.wefuckgfw.ga}}}
-  - {name: US_8008+, server: 167.88.61.50, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: US_6379+ 2, server: 38.91.101.62, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: US_8118+, server: 167.88.61.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: US_7001+, server: 169.197.141.187, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: US_5004+, server: 38.91.101.62, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: US_5003+, server: 169.197.141.187, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: US_7002+, server: 167.88.61.50, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇫🇮  - 芬兰  15, server: mixv4-0.194610.xyz, port: 4430, type: vmess, uuid: e9bb0c5c-01c7-7907-c454-3b8b6d472b19, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /a185d5dc-c726-466c-98f2-ba494e63695f, headers: {Host: mixv4-0.194610.xyz}}}
-  - {name: US_8080+, server: 167.88.61.50, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: US_9101+ 2, server: 169.197.141.187, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: US_8881+, server: 169.197.141.187, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: US_7001+ 2, server: 38.91.101.62, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: US_5600+, server: 167.88.61.50, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _, server: 104.149.154.154, port: 25966, type: vmess, uuid: ca06e0f0-ca6e-418f-800d-97b23ba51bca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /VTd4o3Kj/, headers: {Host: aweikeji-YouTube}}}
-  - {name: US_6697+, server: 167.88.61.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: US_6679+ 2, server: 169.197.141.187, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: US_8888+, server: 38.91.101.62, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: US_5004+ 2, server: 169.197.141.187, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: US_7306+, server: 38.91.101.62, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: US_3389+, server: 169.197.141.187, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: US_8009+ 3, server: 169.197.141.187, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: US_7306+ 2, server: 169.197.141.187, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: US_6697+ 2, server: 169.197.141.187, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: US_5600+ 2, server: 38.91.101.62, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: US_6697+ 3, server: 38.91.101.62, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: US_3306+, server: 167.88.61.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: ‌‌🇨🇦CA_0443+, server: 198.57.27.225, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: JP_5003+, server: 85.208.108.21, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: US_2376+ 2, server: 169.197.141.187, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: US_2376+ 3, server: 38.91.101.62, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: JP_9102+, server: 85.208.108.21, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: US_9102+, server: 167.88.61.50, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: US_7002+ 2, server: 38.91.101.62, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: JP_8009+, server: 85.208.108.21, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: _ 2, server: 167.88.61.2, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: JP_6697+, server: 85.208.108.59, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: ‌‌🇨🇦CA_8008+, server: 198.57.27.225, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: JP_7002+, server: 85.208.108.60, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: ‌‌🇨🇦CA_9102+, server: 198.57.27.225, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: US_8882+, server: 167.88.61.50, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: ‌‌🇨🇦CA_6379+, server: 198.57.27.225, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: US_7307+ 2, server: 167.88.61.50, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: US_5004+ 3, server: 167.88.61.50, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: US_5000+, server: 38.91.101.62, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: JP_8091+, server: 85.208.108.94, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: ‌‌🇨🇦CA_8881+, server: 198.57.27.225, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: US_5003+ 2, server: 167.88.61.50, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇯🇵  - 日本东京Oracle数据中心 2, server: 168.138.208.145, port: 56816, type: vmess, uuid: 86aca19f-d23b-4f08-9677-a061b7282bb9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: US_8080+ 2, server: 169.197.141.187, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: JP_2376+, server: 85.208.108.59, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: US_8118+ 2, server: 38.91.101.62, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: _ 3, server: 167.88.61.2, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: JP_5600+, server: 85.208.108.94, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: ‌‌🇨🇦CA_8888+, server: 198.57.27.225, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: US_8882+ 2, server: 38.91.101.62, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: JP_8008+, server: 85.208.108.20, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: JP_5601+, server: 85.208.108.59, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: JP_7002+ 2, server: 85.208.108.21, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: JP_8888+, server: 85.208.108.59, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: US_3306+ 2, server: 38.91.101.62, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: US_5601+, server: 167.88.61.50, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: JP_6697+ 2, server: 85.208.108.18, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: JP_9101+, server: 85.208.108.20, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: JP_2376+ 2, server: 85.208.108.20, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: ‌‌🇨🇦CA_5600+, server: 198.57.27.225, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: JP_8080+, server: 85.208.108.20, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: JP_3306+, server: 85.208.108.18, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: JP_0443+, server: 85.208.108.59, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: JP_5500+, server: 85.208.108.21, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: JP_6679+, server: 85.208.108.60, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: JP_9101+ 2, server: 85.208.108.21, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: ‌‌🇨🇦CA_9101+, server: 198.57.27.225, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: JP_5003+ 2, server: 85.208.108.94, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: JP_2376+ 3, server: 85.208.108.21, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: US_8119+, server: 38.91.101.62, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: US_8119+ 2, server: 167.88.61.50, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: JP_8000+, server: 85.208.108.59, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: JP_8882+, server: 85.208.108.60, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: ‌‌🇨🇦CA_5000+, server: 198.57.27.225, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: JP_3306+ 2, server: 85.208.108.94, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: JP_6697+ 3, server: 85.208.108.20, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: JP_2375+, server: 85.208.108.59, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name:  - 乌克兰  26, server: v2cross.com.03.v2ce.com, port: 443, type: trojan, password: ZD4dLSBXiMrmzdLd, skip-cert-verify: false}
-  - {name: US_5003+ 3, server: 38.91.101.62, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: US_8080+ 3, server: 38.91.101.62, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: JP_5600+ 2, server: 85.208.108.21, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: JP_8882+ 2, server: 85.208.108.21, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: JP_3389+, server: 85.208.108.59, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: JP_8888+ 2, server: 85.208.108.94, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: ‌‌🇨🇦CA_5500+, server: 198.57.27.225, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸  - 美国  8, server: 155.248.202.203, port: 14564, type: vmess, uuid: 4a0da379-a7cc-4389-88d7-45514b896883, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: JP_8008+ 2, server: 85.208.108.94, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: JP_0443+ 2, server: 85.208.108.21, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: JP_8881+, server: 85.208.108.21, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: JP_6379+, server: 85.208.108.21, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: US_8008+@WangCai_1, server: 167.88.61.50, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: US_6379+@WangCai_1 2, server: 38.91.101.62, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: US_8118+@WangCai_1, server: 167.88.61.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: US_7001+@WangCai_1, server: 169.197.141.187, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: US_5004+@WangCai_1, server: 38.91.101.62, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: US_5003+@WangCai_1, server: 169.197.141.187, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: US_7002+@WangCai_1, server: 167.88.61.50, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇫🇮 github.com/freefq - 芬兰  15, server: mixv4-0.194610.xyz, port: 4430, type: vmess, uuid: e9bb0c5c-01c7-7907-c454-3b8b6d472b19, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /a185d5dc-c726-466c-98f2-ba494e63695f, headers: {Host: mixv4-0.194610.xyz}}}
+  - {name: US_8080+@WangCai_1, server: 167.88.61.50, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: US_9101+@WangCai_1 2, server: 169.197.141.187, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: US_8881+@WangCai_1, server: 169.197.141.187, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: US_7001+@WangCai_1 2, server: 38.91.101.62, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: US_5600+@WangCai_1, server: 167.88.61.50, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _油管：全网最强白嫖, server: 104.149.154.154, port: 25966, type: vmess, uuid: ca06e0f0-ca6e-418f-800d-97b23ba51bca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /VTd4o3Kj/, headers: {Host: aweikeji-YouTube}}}
+  - {name: US_6697+@WangCai_1, server: 167.88.61.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: US_6679+@WangCai_1 2, server: 169.197.141.187, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: US_8888+@WangCai_1, server: 38.91.101.62, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: US_5004+@WangCai_1 2, server: 169.197.141.187, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: US_7306+@WangCai_1, server: 38.91.101.62, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: US_3389+@WangCai_1, server: 169.197.141.187, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: US_8009+@WangCai_1 3, server: 169.197.141.187, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: US_7306+@WangCai_1 2, server: 169.197.141.187, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: US_6697+@WangCai_1 2, server: 169.197.141.187, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: US_5600+@WangCai_1 2, server: 38.91.101.62, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: US_6697+@WangCai_1 3, server: 38.91.101.62, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: US_3306+@WangCai_1, server: 167.88.61.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ‌‌🇨🇦CA_0443+@WangCai_1, server: 198.57.27.225, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: JP_5003+@WangCai_1, server: 85.208.108.21, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: US_2376+@WangCai_1 2, server: 169.197.141.187, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: US_2376+@WangCai_1 3, server: 38.91.101.62, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: JP_9102+@WangCai_1, server: 85.208.108.21, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: US_9102+@WangCai_1, server: 167.88.61.50, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: US_7002+@WangCai_1 2, server: 38.91.101.62, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: JP_8009+@WangCai_1, server: 85.208.108.21, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: _油管：全网最强白嫖 2, server: 167.88.61.2, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: JP_6697+@WangCai_1, server: 85.208.108.59, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: ‌‌🇨🇦CA_8008+@WangCai_1, server: 198.57.27.225, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: JP_7002+@WangCai_1, server: 85.208.108.60, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: ‌‌🇨🇦CA_9102+@WangCai_1, server: 198.57.27.225, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: US_8882+@WangCai_1, server: 167.88.61.50, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: ‌‌🇨🇦CA_6379+@WangCai_1, server: 198.57.27.225, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: US_7307+@WangCai_1 2, server: 167.88.61.50, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: US_5004+@WangCai_1 3, server: 167.88.61.50, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: US_5000+@WangCai_1, server: 38.91.101.62, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: JP_8091+@WangCai_1, server: 85.208.108.94, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ‌‌🇨🇦CA_8881+@WangCai_1, server: 198.57.27.225, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: US_5003+@WangCai_1 2, server: 167.88.61.50, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇯🇵 github.com/freefq - 日本东京Oracle数据中心 2, server: 168.138.208.145, port: 56816, type: vmess, uuid: 86aca19f-d23b-4f08-9677-a061b7282bb9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: US_8080+@WangCai_1 2, server: 169.197.141.187, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: JP_2376+@WangCai_1, server: 85.208.108.59, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: US_8118+@WangCai_1 2, server: 38.91.101.62, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: _油管：全网最强白嫖 3, server: 167.88.61.2, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: JP_5600+@WangCai_1, server: 85.208.108.94, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ‌‌🇨🇦CA_8888+@WangCai_1, server: 198.57.27.225, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: US_8882+@WangCai_1 2, server: 38.91.101.62, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: JP_8008+@WangCai_1, server: 85.208.108.20, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: JP_5601+@WangCai_1, server: 85.208.108.59, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: JP_7002+@WangCai_1 2, server: 85.208.108.21, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: JP_8888+@WangCai_1, server: 85.208.108.59, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: US_3306+@WangCai_1 2, server: 38.91.101.62, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: US_5601+@WangCai_1, server: 167.88.61.50, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: JP_6697+@WangCai_1 2, server: 85.208.108.18, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: JP_9101+@WangCai_1, server: 85.208.108.20, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: JP_2376+@WangCai_1 2, server: 85.208.108.20, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ‌‌🇨🇦CA_5600+@WangCai_1, server: 198.57.27.225, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: JP_8080+@WangCai_1, server: 85.208.108.20, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: JP_3306+@WangCai_1, server: 85.208.108.18, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: JP_0443+@WangCai_1, server: 85.208.108.59, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: JP_5500+@WangCai_1, server: 85.208.108.21, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: JP_6679+@WangCai_1, server: 85.208.108.60, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: JP_9101+@WangCai_1 2, server: 85.208.108.21, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: ‌‌🇨🇦CA_9101+@WangCai_1, server: 198.57.27.225, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: JP_5003+@WangCai_1 2, server: 85.208.108.94, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: JP_2376+@WangCai_1 3, server: 85.208.108.21, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: US_8119+@WangCai_1, server: 38.91.101.62, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: US_8119+@WangCai_1 2, server: 167.88.61.50, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: JP_8000+@WangCai_1, server: 85.208.108.59, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: JP_8882+@WangCai_1, server: 85.208.108.60, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: ‌‌🇨🇦CA_5000+@WangCai_1, server: 198.57.27.225, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: JP_3306+@WangCai_1 2, server: 85.208.108.94, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: JP_6697+@WangCai_1 3, server: 85.208.108.20, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: JP_2375+@WangCai_1, server: 85.208.108.59, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: github.com/freefq - 乌克兰  26, server: v2cross.com.03.v2ce.com, port: 443, type: trojan, password: ZD4dLSBXiMrmzdLd, skip-cert-verify: false}
+  - {name: US_5003+@WangCai_1 3, server: 38.91.101.62, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: US_8080+@WangCai_1 3, server: 38.91.101.62, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: JP_5600+@WangCai_1 2, server: 85.208.108.21, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: JP_8882+@WangCai_1 2, server: 85.208.108.21, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: JP_3389+@WangCai_1, server: 85.208.108.59, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: JP_8888+@WangCai_1 2, server: 85.208.108.94, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ‌‌🇨🇦CA_5500+@WangCai_1, server: 198.57.27.225, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 github.com/freefq - 美国  8, server: 155.248.202.203, port: 14564, type: vmess, uuid: 4a0da379-a7cc-4389-88d7-45514b896883, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: JP_8008+@WangCai_1 2, server: 85.208.108.94, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: JP_0443+@WangCai_1 2, server: 85.208.108.21, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: JP_8881+@WangCai_1, server: 85.208.108.21, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: JP_6379+@WangCai_1, server: 85.208.108.21, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
   - {name: 🇯🇵 日本(youtube阿伟科技), server: jp06-vm5.entry.sdjighbiuodrfhgiuo.beauty, port: 668, type: vmess, uuid: a0fec1fb-e217-344b-84e1-45b412ccd670, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: aweikeji-YouTube}}}
-  - {name: JP_2375+ 2, server: 85.208.108.18, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: JP_8881+ 2, server: 85.208.108.94, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: JP_6379+ 2, server: 85.208.108.94, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: JP_7306+, server: 85.208.108.21, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: US_8888+ 2, server: 167.88.61.50, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: JP_6679+ 2, server: 85.208.108.18, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: JP_5004+, server: 85.208.108.21, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: JP_8000+ 2, server: 85.208.108.60, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: JP_8080+ 2, server: 85.208.108.60, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: JP_8009+ 2, server: 85.208.108.18, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: JP_2376+ 4, server: 85.208.108.18, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: US_2375+, server: 167.88.61.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: _ 4, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}}
-  - {name: 🇺🇸  - 美国CloudFlare公司CDN节点 34, server: lu1.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /go, headers: {Host: lu1.gogogoo.cyou}}}
-  - {name: JP_7307+, server: 85.208.108.60, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: JP_8009+ 3, server: 85.208.108.59, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: US_8881+ 2, server: 38.91.101.62, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: ‌‌🇨🇦CA_3306+, server: 198.57.27.225, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: US_5601+ 2, server: 38.91.101.62, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: JP_8000+ 3, server: 85.208.108.20, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: JP_2375+@WangCai_1 2, server: 85.208.108.18, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: JP_8881+@WangCai_1 2, server: 85.208.108.94, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: JP_6379+@WangCai_1 2, server: 85.208.108.94, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: JP_7306+@WangCai_1, server: 85.208.108.21, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: US_8888+@WangCai_1 2, server: 167.88.61.50, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: JP_6679+@WangCai_1 2, server: 85.208.108.18, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: JP_5004+@WangCai_1, server: 85.208.108.21, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: JP_8000+@WangCai_1 2, server: 85.208.108.60, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: JP_8080+@WangCai_1 2, server: 85.208.108.60, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: JP_8009+@WangCai_1 2, server: 85.208.108.18, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: JP_2376+@WangCai_1 4, server: 85.208.108.18, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: US_2375+@WangCai_1, server: 167.88.61.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _油管：全网最强白嫖 4, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 34, server: lu1.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /go, headers: {Host: lu1.gogogoo.cyou}}}
+  - {name: JP_7307+@WangCai_1, server: 85.208.108.60, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: JP_8009+@WangCai_1 3, server: 85.208.108.59, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: US_8881+@WangCai_1 2, server: 38.91.101.62, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: ‌‌🇨🇦CA_3306+@WangCai_1, server: 198.57.27.225, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: US_5601+@WangCai_1 2, server: 38.91.101.62, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: JP_8000+@WangCai_1 3, server: 85.208.108.20, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
   - {name: 🇺🇸 美国(yudou66.com+玉豆分享), server: 167.88.61.2, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: JP_8090+, server: 85.208.108.21, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: JP_7307+ 2, server: 85.208.108.21, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: US_7001+ 3, server: 167.88.61.50, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: US_5500+, server: 167.88.61.50, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: JP_9101+ 3, server: 85.208.108.60, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: US_8000+, server: 167.88.61.50, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: JP_2376+ 5, server: 85.208.108.94, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: US_2375+ 2, server: 169.197.141.187, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: JP_7306+ 2, server: 85.208.108.20, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: _ 5, server: 116.129.254.177, port: 26003, type: vmess, uuid: 708310bf-b4b2-3826-8071-956a85b1fe4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: _ 6, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}}
-  - {name: _ 7, server: 116.129.254.177, port: 26002, type: vmess, uuid: 708310bf-b4b2-3826-8071-956a85b1fe4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: _ 8, server: 167.88.61.2, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name:  - 欧盟  5, server: mixv4-28.194610.xyz, port: 4430, type: vmess, uuid: e9bb0c5c-01c7-7907-c454-3b8b6d472b19, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /a185d5dc-c726-466c-98f2-ba494e63695f, headers: {Host: mixv4-28.194610.xyz}}}
+  - {name: JP_8090+@WangCai_1, server: 85.208.108.21, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: JP_7307+@WangCai_1 2, server: 85.208.108.21, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: US_7001+@WangCai_1 3, server: 167.88.61.50, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: US_5500+@WangCai_1, server: 167.88.61.50, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: JP_9101+@WangCai_1 3, server: 85.208.108.60, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: US_8000+@WangCai_1, server: 167.88.61.50, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: JP_2376+@WangCai_1 5, server: 85.208.108.94, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: US_2375+@WangCai_1 2, server: 169.197.141.187, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: JP_7306+@WangCai_1 2, server: 85.208.108.20, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: _油管：全网最强白嫖 5, server: 116.129.254.177, port: 26003, type: vmess, uuid: 708310bf-b4b2-3826-8071-956a85b1fe4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: _油管：全网最强白嫖 6, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}}
+  - {name: _油管：全网最强白嫖 7, server: 116.129.254.177, port: 26002, type: vmess, uuid: 708310bf-b4b2-3826-8071-956a85b1fe4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: _油管：全网最强白嫖 8, server: 167.88.61.2, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: github.com/freefq - 欧盟  5, server: mixv4-28.194610.xyz, port: 4430, type: vmess, uuid: e9bb0c5c-01c7-7907-c454-3b8b6d472b19, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /a185d5dc-c726-466c-98f2-ba494e63695f, headers: {Host: mixv4-28.194610.xyz}}}
   - {name: 🇺🇸 美国(yudou66.com 玉豆分享), server: 51.81.223.4, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: US_5000+ 2, server: 169.197.141.187, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: JP_8118+, server: 85.208.108.60, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: JP_2376+ 6, server: 85.208.108.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: JP_6697+ 4, server: 85.208.108.60, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: US_8091+ 2, server: 38.91.101.62, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: JP_9102+ 2, server: 85.208.108.60, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: ‌‌🇨🇦CA_6697+, server: 198.57.27.225, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: JP_7307+ 3, server: 85.208.108.20, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: JP_8119+, server: 85.208.108.94, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: JP_8118+ 2, server: 85.208.108.21, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: JP_8008+ 3, server: 85.208.108.18, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: _ 9, server: 167.88.61.2, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: JP_7002+ 3, server: 85.208.108.20, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: US_8091+ 3, server: 169.197.141.187, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: JP_5001+, server: 85.208.108.18, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: US_5000+@WangCai_1 2, server: 169.197.141.187, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: JP_8118+@WangCai_1, server: 85.208.108.60, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: JP_2376+@WangCai_1 6, server: 85.208.108.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: JP_6697+@WangCai_1 4, server: 85.208.108.60, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: US_8091+@WangCai_1 2, server: 38.91.101.62, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: JP_9102+@WangCai_1 2, server: 85.208.108.60, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: ‌‌🇨🇦CA_6697+@WangCai_1, server: 198.57.27.225, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: JP_7307+@WangCai_1 3, server: 85.208.108.20, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: JP_8119+@WangCai_1, server: 85.208.108.94, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: JP_8118+@WangCai_1 2, server: 85.208.108.21, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: JP_8008+@WangCai_1 3, server: 85.208.108.18, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: _油管：全网最强白嫖 9, server: 167.88.61.2, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: JP_7002+@WangCai_1 3, server: 85.208.108.20, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: US_8091+@WangCai_1 3, server: 169.197.141.187, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: JP_5001+@WangCai_1, server: 85.208.108.18, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: 🇭🇰 香港(yudou66.com+玉豆分享), server: gy01.20220512.cyou, port: 56655, type: trojan, password: 2a7d25c4-4eb8-44ea-a078-f70b9836561f, sni: gy01.20220512.cyou, skip-cert-verify: false}
   - {name: 🇺🇸 美国(yudou66.com 玉豆分享) 2, server: 51.81.223.36, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇯🇵  - 日本东京都Amazon数据中心 1, server: jp06-vm5.entry.sdjighbiuodrfhgiuo.beauty, port: 668, type: vmess, uuid: a0fec1fb-e217-344b-84e1-45b412ccd670, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: jp06-vm5.entry.sdjighbiuodrfhgiuo.beauty}}}
-  - {name: US_5600+ 3, server: 169.197.141.187, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: US_8008+ 2, server: 38.91.101.62, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: JP_7002+ 4, server: 85.208.108.94, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: JP_8119+ 2, server: 85.208.108.18, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: US_8118+ 3, server: 169.197.141.187, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: JP_2375+ 3, server: 85.208.108.94, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: JP_5004+ 2, server: 85.208.108.94, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: US_8090+, server: 38.91.101.62, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: JP_5001+ 2, server: 85.208.108.21, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: US_9101+ 3, server: 38.91.101.62, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: _ 10, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}}
-  - {name: US_8000+ 2, server: 38.91.101.62, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: JP_5601+ 2, server: 85.208.108.20, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸  - 美国加利福尼亚州洛杉矶MULTACOM数据中心 16, server: lsj02.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: false}
+  - {name: 🇯🇵 github.com/freefq - 日本东京都Amazon数据中心 1, server: jp06-vm5.entry.sdjighbiuodrfhgiuo.beauty, port: 668, type: vmess, uuid: a0fec1fb-e217-344b-84e1-45b412ccd670, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: jp06-vm5.entry.sdjighbiuodrfhgiuo.beauty}}}
+  - {name: US_5600+@WangCai_1 3, server: 169.197.141.187, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: US_8008+@WangCai_1 2, server: 38.91.101.62, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: JP_7002+@WangCai_1 4, server: 85.208.108.94, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: JP_8119+@WangCai_1 2, server: 85.208.108.18, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: US_8118+@WangCai_1 3, server: 169.197.141.187, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: JP_2375+@WangCai_1 3, server: 85.208.108.94, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: JP_5004+@WangCai_1 2, server: 85.208.108.94, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: US_8090+@WangCai_1, server: 38.91.101.62, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: JP_5001+@WangCai_1 2, server: 85.208.108.21, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: US_9101+@WangCai_1 3, server: 38.91.101.62, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: _油管：全网最强白嫖 10, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}}
+  - {name: US_8000+@WangCai_1 2, server: 38.91.101.62, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: JP_5601+@WangCai_1 2, server: 85.208.108.20, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 16, server: lsj02.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: false}
   - {name: 乌克兰(yudou66.com+玉豆分享), server: v2cross.com.05.v2ce.com, port: 443, type: trojan, password: kGrwqmB1nEKUsDwE, skip-cert-verify: false}
-  - {name: 🇺🇸  - 美国CloudFlare节点 43, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: f736834f-1fc8-4738-9884-9afe0eb0d818, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v1.ssrsub.com}}}
-  - {name:  - 广东省珠海市电信 9, server: data-hk-v2.shwjfkw.cn, port: 50206, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tv.cctv.com}}}
-  - {name: 🇺🇸  - 美国弗吉尼亚州文特山农场OVH数据中心 8, server: 51.81.223.0, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 43, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: f736834f-1fc8-4738-9884-9afe0eb0d818, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v1.ssrsub.com}}}
+  - {name: github.com/freefq - 广东省珠海市电信 9, server: data-hk-v2.shwjfkw.cn, port: 50206, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tv.cctv.com}}}
+  - {name: 🇺🇸 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 8, server: 51.81.223.0, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 🇺🇸 美国(youtube阿伟科技), server: 51.81.223.4, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: US_7306+ 3, server: 167.88.61.50, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: JP_8119+ 3, server: 85.208.108.21, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: JP_8882+ 3, server: 85.208.108.20, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: US_0443+ 3, server: 169.197.141.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: JP_2375+ 4, server: 85.208.108.20, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: US_7306+@WangCai_1 3, server: 167.88.61.50, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: JP_8119+@WangCai_1 3, server: 85.208.108.21, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: JP_8882+@WangCai_1 3, server: 85.208.108.20, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: US_0443+@WangCai_1 3, server: 169.197.141.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: JP_2375+@WangCai_1 4, server: 85.208.108.20, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: 🇺🇸 美国(yudou66.com 玉豆分享) 3, server: 51.81.223.25, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: JP_0443+ 3, server: 85.208.108.94, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: JP_8090+ 2, server: 85.208.108.59, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: JP_5004+ 3, server: 85.208.108.59, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: _ 11, server: azqt001.xiba1.xyz, port: 20730, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false}
-  - {name: _ 12, server: cdn2.myuuusss.com, port: 20021, type: ss, cipher: aes-128-gcm, password: dbdc16e3-1f61-41bb-99a6-5f29d8b86f82}
+  - {name: JP_0443+@WangCai_1 3, server: 85.208.108.94, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: JP_8090+@WangCai_1 2, server: 85.208.108.59, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: JP_5004+@WangCai_1 3, server: 85.208.108.59, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: _油管：全网最强白嫖 11, server: azqt001.xiba1.xyz, port: 20730, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false}
+  - {name: _油管：全网最强白嫖 12, server: cdn2.myuuusss.com, port: 20021, type: ss, cipher: aes-128-gcm, password: dbdc16e3-1f61-41bb-99a6-5f29d8b86f82}
   - {name: 🇺🇸 美国(yudou66.com 玉豆分享) 4, server: 51.81.223.32, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: _ 13, server: 51.81.223.10, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬  - 新加坡Linode数据中心 25, server: w12.udpgw.com, port: 443, type: trojan, password: 08964210-e7b8-11ec-95aa-1239d0255272, skip-cert-verify: false}
-  - {name: 🇺🇸  - 美国  17, server: v04.ssrsub.com, port: 153, type: vmess, uuid: 2256dea6-b952-43f7-b8a2-983f766d5836, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: d76bb35696.laowanxiang.com}}}
-  - {name: 🇮🇷  - 伊朗  44, server: 78.157.40.105, port: 28222, type: ss, cipher: aes-256-gcm, password: QuY5J4qbFXht9dm8}
-  - {name: 🇮🇷  - 伊朗  31, server: 185.112.151.147, port: 101, type: ss, cipher: aes-256-gcm, password: SnFKf1vmcpPDN8Rs}
-  - {name: 🇺🇸  - 美国弗吉尼亚州文特山农场OVH数据中心 6, server: 51.81.223.29, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇦  - 加拿大  34, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1c08f35bdafe74a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 330tw.fans8.xyz}}}
-  - {name: 🇺🇸  - 美国CloudFlare公司CDN节点 27, server: sg01.czsx1624.tk, port: 443, type: vmess, uuid: d002b422-eace-4e01-bf58-e4bb0bcfe7af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /3a8545177/, headers: {Host: sg01.czsx1624.tk}}}
+  - {name: _油管：全网最强白嫖 13, server: 51.81.223.10, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 github.com/freefq - 新加坡Linode数据中心 25, server: w12.udpgw.com, port: 443, type: trojan, password: 08964210-e7b8-11ec-95aa-1239d0255272, skip-cert-verify: false}
+  - {name: 🇺🇸 github.com/freefq - 美国  17, server: v04.ssrsub.com, port: 153, type: vmess, uuid: 2256dea6-b952-43f7-b8a2-983f766d5836, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: d76bb35696.laowanxiang.com}}}
+  - {name: 🇮🇷 github.com/freefq - 伊朗  44, server: 78.157.40.105, port: 28222, type: ss, cipher: aes-256-gcm, password: QuY5J4qbFXht9dm8}
+  - {name: 🇮🇷 github.com/freefq - 伊朗  31, server: 185.112.151.147, port: 101, type: ss, cipher: aes-256-gcm, password: SnFKf1vmcpPDN8Rs}
+  - {name: 🇺🇸 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 6, server: 51.81.223.29, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇦 github.com/freefq - 加拿大  34, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1c08f35bdafe74a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 330tw.fans8.xyz}}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 27, server: sg01.czsx1624.tk, port: 443, type: vmess, uuid: d002b422-eace-4e01-bf58-e4bb0bcfe7af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /3a8545177/, headers: {Host: sg01.czsx1624.tk}}}
   - {name: 🇺🇸 美国(yudou66.com 玉豆分享) 5, server: 143.198.130.21, port: 42382, type: vmess, uuid: 03b452a7-907b-4f77-8ca4-60250cc835bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: JP_0443+ 4, server: 85.208.108.18, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: JP_0443+@WangCai_1 4, server: 85.208.108.18, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
   - {name: 🇺🇸 美国(yudou66.com 玉豆分享) 6, server: 51.81.223.35, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 🇯🇵 _JP_日本, server: 185.160.24.217, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: JP_8091+ 2, server: 85.208.108.60, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _ 14, server: azqt001.xiba1.xyz, port: 20728, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false}
-  - {name: JP_5001+ 3, server: 85.208.108.59, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: JP_8091+@WangCai_1 2, server: 85.208.108.60, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: _油管：全网最强白嫖 14, server: azqt001.xiba1.xyz, port: 20728, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false}
+  - {name: JP_5001+@WangCai_1 3, server: 85.208.108.59, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: 🇯🇵 _JP_日本 2, server: 185.160.24.217, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: JP_9101+ 4, server: 85.208.108.18, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: JP_5004+ 4, server: 85.208.108.20, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: JP_5600+ 3, server: 85.208.108.59, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: JP_3306+ 3, server: 85.208.108.21, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸  - 美国CloudFlare节点 30, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 2256dea6-b952-43f7-b8a2-983f766d5836, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v1.ssrsub.com}}}
-  - {name: 🇨🇿  - 捷克布拉格Friendhosting有限责任公司 28, server: v2cross.com.02.v2ce.com, port: 443, type: trojan, password: 3gLlCYBipVwr6Y5F, skip-cert-verify: false}
-  - {name: _ 15, server: v2.ssrsub.com, port: 18443, type: vmess, uuid: f736834f-1fc8-4738-9884-9afe0eb0d818, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v2.ssrsub.com}}}
-  - {name: 🇺🇸  - 美国加利福尼亚州洛杉矶MULTACOM数据中心 13, server: mc.vpshax.ml, port: 443, type: trojan, password: 48ac743a-2d49-4191-b804-0c7fa7e01146, skip-cert-verify: false}
-  - {name: 🇺🇸  - 美国弗吉尼亚州文特山农场OVH数据中心 10, server: 51.81.223.31, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇮🇷  - 伊朗  32, server: 78.157.40.105, port: 14500, type: ss, cipher: aes-256-gcm, password: pZNq5KPuhe9sz1MV}
-  - {name: 🇨🇳  - 广东省广州市移动 30, server: bgpv2.ktyjsq.com, port: 12205, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name:  - 欧盟  42, server: v2.ssrsub.com, port: 18443, type: vmess, uuid: 2256dea6-b952-43f7-b8a2-983f766d5836, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v2.ssrsub.com}}}
-  - {name: 🇺🇸  - 美国弗吉尼亚州文特山农场OVH数据中心 4, server: 51.81.223.19, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: US_5001+, server: 167.88.61.50, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: JP_9101+@WangCai_1 4, server: 85.208.108.18, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: JP_5004+@WangCai_1 4, server: 85.208.108.20, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: JP_5600+@WangCai_1 3, server: 85.208.108.59, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: JP_3306+@WangCai_1 3, server: 85.208.108.21, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 30, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 2256dea6-b952-43f7-b8a2-983f766d5836, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v1.ssrsub.com}}}
+  - {name: 🇨🇿 github.com/freefq - 捷克布拉格Friendhosting有限责任公司 28, server: v2cross.com.02.v2ce.com, port: 443, type: trojan, password: 3gLlCYBipVwr6Y5F, skip-cert-verify: false}
+  - {name: _油管：全网最强白嫖 15, server: v2.ssrsub.com, port: 18443, type: vmess, uuid: f736834f-1fc8-4738-9884-9afe0eb0d818, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v2.ssrsub.com}}}
+  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 13, server: mc.vpshax.ml, port: 443, type: trojan, password: 48ac743a-2d49-4191-b804-0c7fa7e01146, skip-cert-verify: false}
+  - {name: 🇺🇸 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 10, server: 51.81.223.31, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇮🇷 github.com/freefq - 伊朗  32, server: 78.157.40.105, port: 14500, type: ss, cipher: aes-256-gcm, password: pZNq5KPuhe9sz1MV}
+  - {name: 🇨🇳 github.com/freefq - 广东省广州市移动 30, server: bgpv2.ktyjsq.com, port: 12205, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: github.com/freefq - 欧盟  42, server: v2.ssrsub.com, port: 18443, type: vmess, uuid: 2256dea6-b952-43f7-b8a2-983f766d5836, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v2.ssrsub.com}}}
+  - {name: 🇺🇸 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 4, server: 51.81.223.19, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: US_5001+@WangCai_1, server: 167.88.61.50, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: 🇺🇸 美国(yudou66.com 玉豆分享) 7, server: 51.81.223.35, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: _ 16, server: 527hk1.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 527hk1.fans8.xyz}}}
+  - {name: _油管：全网最强白嫖 16, server: 527hk1.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 527hk1.fans8.xyz}}}
   - {name: 🇺🇸 美国(yudou66.com 玉豆分享) 8, server: 51.81.223.0, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 🇺🇸 美国(yudou66.com 玉豆分享) 9, server: 51.81.223.29, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 🇺🇸 美国(yudou66.com+玉豆分享) 2, server: bai-piao-wang-zhe-iplc12.98848.xyz, port: 19222, type: trojan, password: 2b815eb6-3982-4f09-9181-3c02c479d4d1, skip-cert-verify: false}
   - {name: 🇺🇸 _US_美国, server: 51.81.223.13, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸  - 美国  1, server: 155.248.162.21, port: 443, type: vmess, uuid: 7454097f-15fb-44bb-9e59-e1fdd1ac03a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸  - 美国  40, server: vus3.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /chat, headers: {Host: vus3.0bad.com}}}
-  - {name: 🇺🇸  - 美国  28, server: taobao.babazhuji.com, port: 443, type: vmess, uuid: 36712be8-f2ff-4875-8c67-95efd66ac994, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /didi, headers: {Host: taobao.babazhuji.com}}}
-  - {name: 🇺🇸  - 美国CloudFlare公司CDN节点 24, server: lu1.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3908b44d1be0a4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /go, headers: {Host: lu1.gogogoo.cyou}}}
-  - {name: 🇺🇸  - 美国  12, server: 152.69.206.209, port: 1212, type: vmess, uuid: fb908160-9697-4bfd-f5b7-f1fbc53e60fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 github.com/freefq - 美国  1, server: 155.248.162.21, port: 443, type: vmess, uuid: 7454097f-15fb-44bb-9e59-e1fdd1ac03a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 github.com/freefq - 美国  40, server: vus3.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /chat, headers: {Host: vus3.0bad.com}}}
+  - {name: 🇺🇸 github.com/freefq - 美国  28, server: taobao.babazhuji.com, port: 443, type: vmess, uuid: 36712be8-f2ff-4875-8c67-95efd66ac994, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /didi, headers: {Host: taobao.babazhuji.com}}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 24, server: lu1.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3908b44d1be0a4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /go, headers: {Host: lu1.gogogoo.cyou}}}
+  - {name: 🇺🇸 github.com/freefq - 美国  12, server: 152.69.206.209, port: 1212, type: vmess, uuid: fb908160-9697-4bfd-f5b7-f1fbc53e60fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
   - {name: 🇺🇸 美国(yudou66.com 玉豆分享) 10, server: 150.230.41.9, port: 23292, type: vmess, uuid: 956c6c2f-bf54-4b87-fafd-4b767ca12750, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸  - 美国CloudFlare节点 20, server: app.ssfree.ru, port: 443, type: vmess, uuid: 0c7ccf0e-ebfb-11ec-b6c7-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /getweather, headers: {Host: app.ssfree.ru}}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 20, server: app.ssfree.ru, port: 443, type: vmess, uuid: 0c7ccf0e-ebfb-11ec-b6c7-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /getweather, headers: {Host: app.ssfree.ru}}}
   - {name: 🇺🇸 美国(yudou66.com 玉豆分享) 11, server: 188.114.97.110, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: v2fly.samrt.website, network: ws, ws-opts: {path: /chcar, headers: {Host: v2fly.samrt.website}}}
-  - {name: 🇨🇦  - 加拿大  22, server: 67tw01.fans8.xyz, port: 443, type: trojan, password: bbdff6a8-2e22-4d37-a4ab-a038bc646bd9, skip-cert-verify: false}
-  - {name: _ 17, server: 43.154.93.14, port: 443, type: vmess, uuid: afe936ee-536e-4e94-8c46-71d222183729, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vNz3qzS3ml}}
-  - {name: _ 18, server: irancell.android-club.ir, port: 80, type: vmess, uuid: 040edd14-f4d9-4910-0c6d-8cca9863cdff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /apiws, headers: {Host: aweikeji-YouTube}}}
-  - {name: _ 19, server: azqt001.xiba1.xyz, port: 20748, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, skip-cert-verify: false}
+  - {name: 🇨🇦 github.com/freefq - 加拿大  22, server: 67tw01.fans8.xyz, port: 443, type: trojan, password: bbdff6a8-2e22-4d37-a4ab-a038bc646bd9, skip-cert-verify: false}
+  - {name: _油管：全网最强白嫖 17, server: 43.154.93.14, port: 443, type: vmess, uuid: afe936ee-536e-4e94-8c46-71d222183729, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vNz3qzS3ml}}
+  - {name: _油管：全网最强白嫖 18, server: irancell.android-club.ir, port: 80, type: vmess, uuid: 040edd14-f4d9-4910-0c6d-8cca9863cdff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /apiws, headers: {Host: aweikeji-YouTube}}}
+  - {name: _油管：全网最强白嫖 19, server: azqt001.xiba1.xyz, port: 20748, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, skip-cert-verify: false}
   - {name: 🇪🇺 欧洲(yudou66.com 玉豆分享), server: srvf.myandroidplus1.ir, port: 80, type: vmess, uuid: 040edd14-f4d9-4910-0c6d-8cca9863cdff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /apiws, headers: {Host: srvf.myandroidplus1.ir}}}
-  - {name: _ 20, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws}}
+  - {name: _油管：全网最强白嫖 20, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws}}
   - {name: 🇩🇪 德国(yudou66.com 玉豆分享), server: srvf.myandroidplus1.ir, port: 80, type: vmess, uuid: 040edd14-f4d9-4910-0c6d-8cca9863cdff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /apiws, headers: {Host: aweikeji-YouTube}}}
-  - {name: _ 21, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 117.28.242.156}}}
-  - {name: _ 22, server: azgy001.xiba1.xyz, port: 20712, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, skip-cert-verify: false}
-  - {name: _ 23, server: ingress-i1.onebox6.org, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: ingress-i1.onebox6.org}}}
+  - {name: _油管：全网最强白嫖 21, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 117.28.242.156}}}
+  - {name: _油管：全网最强白嫖 22, server: azgy001.xiba1.xyz, port: 20712, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, skip-cert-verify: false}
+  - {name: _油管：全网最强白嫖 23, server: ingress-i1.onebox6.org, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: ingress-i1.onebox6.org}}}
 proxy-groups:
   - name: 🇭🇰 香港节点
     type: select
@@ -259,201 +259,201 @@ proxy-groups:
   - name: 🇯🇵 日本节点
     type: select
     proxies:
-      - JP_5003+
-      - JP_9102+
-      - JP_8009+
-      - JP_6697+
-      - JP_7002+
-      - JP_8091+
-      - 🇯🇵  - 日本东京Oracle数据中心 2
-      - JP_2376+
-      - JP_5600+
-      - JP_8008+
-      - JP_5601+
-      - JP_7002+ 2
-      - JP_8888+
-      - JP_6697+ 2
-      - JP_9101+
-      - JP_2376+ 2
-      - JP_8080+
-      - JP_3306+
-      - JP_0443+
-      - JP_5500+
-      - JP_6679+
-      - JP_9101+ 2
-      - JP_5003+ 2
-      - JP_2376+ 3
-      - JP_8000+
-      - JP_8882+
-      - JP_3306+ 2
-      - JP_6697+ 3
-      - JP_2375+
-      - JP_5600+ 2
-      - JP_8882+ 2
-      - JP_3389+
-      - JP_8888+ 2
-      - JP_8008+ 2
-      - JP_0443+ 2
-      - JP_8881+
-      - JP_6379+
+      - JP_5003+@WangCai_1
+      - JP_9102+@WangCai_1
+      - JP_8009+@WangCai_1
+      - JP_6697+@WangCai_1
+      - JP_7002+@WangCai_1
+      - JP_8091+@WangCai_1
+      - 🇯🇵 github.com/freefq - 日本东京Oracle数据中心 2
+      - JP_2376+@WangCai_1
+      - JP_5600+@WangCai_1
+      - JP_8008+@WangCai_1
+      - JP_5601+@WangCai_1
+      - JP_7002+@WangCai_1 2
+      - JP_8888+@WangCai_1
+      - JP_6697+@WangCai_1 2
+      - JP_9101+@WangCai_1
+      - JP_2376+@WangCai_1 2
+      - JP_8080+@WangCai_1
+      - JP_3306+@WangCai_1
+      - JP_0443+@WangCai_1
+      - JP_5500+@WangCai_1
+      - JP_6679+@WangCai_1
+      - JP_9101+@WangCai_1 2
+      - JP_5003+@WangCai_1 2
+      - JP_2376+@WangCai_1 3
+      - JP_8000+@WangCai_1
+      - JP_8882+@WangCai_1
+      - JP_3306+@WangCai_1 2
+      - JP_6697+@WangCai_1 3
+      - JP_2375+@WangCai_1
+      - JP_5600+@WangCai_1 2
+      - JP_8882+@WangCai_1 2
+      - JP_3389+@WangCai_1
+      - JP_8888+@WangCai_1 2
+      - JP_8008+@WangCai_1 2
+      - JP_0443+@WangCai_1 2
+      - JP_8881+@WangCai_1
+      - JP_6379+@WangCai_1
       - 🇯🇵 日本(youtube阿伟科技)
-      - JP_2375+ 2
-      - JP_8881+ 2
-      - JP_6379+ 2
-      - JP_7306+
-      - JP_6679+ 2
-      - JP_5004+
-      - JP_8000+ 2
-      - JP_8080+ 2
-      - JP_8009+ 2
-      - JP_2376+ 4
-      - JP_7307+
-      - JP_8009+ 3
-      - JP_8000+ 3
-      - JP_8090+
-      - JP_7307+ 2
-      - JP_9101+ 3
-      - JP_2376+ 5
-      - JP_7306+ 2
-      - JP_8118+
-      - JP_2376+ 6
-      - JP_6697+ 4
-      - JP_9102+ 2
-      - JP_7307+ 3
-      - JP_8119+
-      - JP_8118+ 2
-      - JP_8008+ 3
-      - JP_7002+ 3
-      - JP_5001+
-      - 🇯🇵  - 日本东京都Amazon数据中心 1
-      - JP_7002+ 4
-      - JP_8119+ 2
-      - JP_2375+ 3
-      - JP_5004+ 2
-      - JP_5001+ 2
-      - JP_5601+ 2
-      - JP_8119+ 3
-      - JP_8882+ 3
-      - JP_2375+ 4
-      - JP_0443+ 3
-      - JP_8090+ 2
-      - JP_5004+ 3
-      - JP_0443+ 4
+      - JP_2375+@WangCai_1 2
+      - JP_8881+@WangCai_1 2
+      - JP_6379+@WangCai_1 2
+      - JP_7306+@WangCai_1
+      - JP_6679+@WangCai_1 2
+      - JP_5004+@WangCai_1
+      - JP_8000+@WangCai_1 2
+      - JP_8080+@WangCai_1 2
+      - JP_8009+@WangCai_1 2
+      - JP_2376+@WangCai_1 4
+      - JP_7307+@WangCai_1
+      - JP_8009+@WangCai_1 3
+      - JP_8000+@WangCai_1 3
+      - JP_8090+@WangCai_1
+      - JP_7307+@WangCai_1 2
+      - JP_9101+@WangCai_1 3
+      - JP_2376+@WangCai_1 5
+      - JP_7306+@WangCai_1 2
+      - JP_8118+@WangCai_1
+      - JP_2376+@WangCai_1 6
+      - JP_6697+@WangCai_1 4
+      - JP_9102+@WangCai_1 2
+      - JP_7307+@WangCai_1 3
+      - JP_8119+@WangCai_1
+      - JP_8118+@WangCai_1 2
+      - JP_8008+@WangCai_1 3
+      - JP_7002+@WangCai_1 3
+      - JP_5001+@WangCai_1
+      - 🇯🇵 github.com/freefq - 日本东京都Amazon数据中心 1
+      - JP_7002+@WangCai_1 4
+      - JP_8119+@WangCai_1 2
+      - JP_2375+@WangCai_1 3
+      - JP_5004+@WangCai_1 2
+      - JP_5001+@WangCai_1 2
+      - JP_5601+@WangCai_1 2
+      - JP_8119+@WangCai_1 3
+      - JP_8882+@WangCai_1 3
+      - JP_2375+@WangCai_1 4
+      - JP_0443+@WangCai_1 3
+      - JP_8090+@WangCai_1 2
+      - JP_5004+@WangCai_1 3
+      - JP_0443+@WangCai_1 4
       - 🇯🇵 _JP_日本
-      - JP_8091+ 2
-      - JP_5001+ 3
+      - JP_8091+@WangCai_1 2
+      - JP_5001+@WangCai_1 3
       - 🇯🇵 _JP_日本 2
-      - JP_9101+ 4
-      - JP_5004+ 4
-      - JP_5600+ 3
-      - JP_3306+ 3
+      - JP_9101+@WangCai_1 4
+      - JP_5004+@WangCai_1 4
+      - JP_5600+@WangCai_1 3
+      - JP_3306+@WangCai_1 3
   - name: 🇺🇲 美国节点
     type: select
     proxies:
-      - US_6679+
-      - US_8091+
-      - US_2376+
-      - US_8009+
-      - US_6379+
-      - US_8009+ 2
-      - US_0443+
-      - US_9101+
-      - US_0443+ 2
-      - US_7307+
-      - US_8008+
-      - US_6379+ 2
-      - US_8118+
-      - US_7001+
-      - US_5004+
-      - US_5003+
-      - US_7002+
-      - US_8080+
-      - US_9101+ 2
-      - US_8881+
-      - US_7001+ 2
-      - US_5600+
-      - US_6697+
-      - US_6679+ 2
-      - US_8888+
-      - US_5004+ 2
-      - US_7306+
-      - US_3389+
-      - US_8009+ 3
-      - US_7306+ 2
-      - US_6697+ 2
-      - US_5600+ 2
-      - US_6697+ 3
-      - US_3306+
-      - US_2376+ 2
-      - US_2376+ 3
-      - US_9102+
-      - US_7002+ 2
-      - US_8882+
-      - US_7307+ 2
-      - US_5004+ 3
-      - US_5000+
-      - US_5003+ 2
-      - US_8080+ 2
-      - US_8118+ 2
-      - US_8882+ 2
-      - US_3306+ 2
-      - US_5601+
-      - US_8119+
-      - US_8119+ 2
-      - US_5003+ 3
-      - US_8080+ 3
-      - 🇺🇸  - 美国  8
-      - US_8888+ 2
-      - US_2375+
-      - 🇺🇸  - 美国CloudFlare公司CDN节点 34
-      - US_8881+ 2
-      - US_5601+ 2
+      - US_6679+@WangCai_1
+      - US_8091+@WangCai_1
+      - US_2376+@WangCai_1
+      - US_8009+@WangCai_1
+      - US_6379+@WangCai_1
+      - US_8009+@WangCai_1 2
+      - US_0443+@WangCai_1
+      - US_9101+@WangCai_1
+      - US_0443+@WangCai_1 2
+      - US_7307+@WangCai_1
+      - US_8008+@WangCai_1
+      - US_6379+@WangCai_1 2
+      - US_8118+@WangCai_1
+      - US_7001+@WangCai_1
+      - US_5004+@WangCai_1
+      - US_5003+@WangCai_1
+      - US_7002+@WangCai_1
+      - US_8080+@WangCai_1
+      - US_9101+@WangCai_1 2
+      - US_8881+@WangCai_1
+      - US_7001+@WangCai_1 2
+      - US_5600+@WangCai_1
+      - US_6697+@WangCai_1
+      - US_6679+@WangCai_1 2
+      - US_8888+@WangCai_1
+      - US_5004+@WangCai_1 2
+      - US_7306+@WangCai_1
+      - US_3389+@WangCai_1
+      - US_8009+@WangCai_1 3
+      - US_7306+@WangCai_1 2
+      - US_6697+@WangCai_1 2
+      - US_5600+@WangCai_1 2
+      - US_6697+@WangCai_1 3
+      - US_3306+@WangCai_1
+      - US_2376+@WangCai_1 2
+      - US_2376+@WangCai_1 3
+      - US_9102+@WangCai_1
+      - US_7002+@WangCai_1 2
+      - US_8882+@WangCai_1
+      - US_7307+@WangCai_1 2
+      - US_5004+@WangCai_1 3
+      - US_5000+@WangCai_1
+      - US_5003+@WangCai_1 2
+      - US_8080+@WangCai_1 2
+      - US_8118+@WangCai_1 2
+      - US_8882+@WangCai_1 2
+      - US_3306+@WangCai_1 2
+      - US_5601+@WangCai_1
+      - US_8119+@WangCai_1
+      - US_8119+@WangCai_1 2
+      - US_5003+@WangCai_1 3
+      - US_8080+@WangCai_1 3
+      - 🇺🇸 github.com/freefq - 美国  8
+      - US_8888+@WangCai_1 2
+      - US_2375+@WangCai_1
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 34
+      - US_8881+@WangCai_1 2
+      - US_5601+@WangCai_1 2
       - 🇺🇸 美国(yudou66.com+玉豆分享)
-      - US_7001+ 3
-      - US_5500+
-      - US_8000+
-      - US_2375+ 2
+      - US_7001+@WangCai_1 3
+      - US_5500+@WangCai_1
+      - US_8000+@WangCai_1
+      - US_2375+@WangCai_1 2
       - 🇺🇸 美国(yudou66.com 玉豆分享)
-      - US_5000+ 2
-      - US_8091+ 2
-      - US_8091+ 3
+      - US_5000+@WangCai_1 2
+      - US_8091+@WangCai_1 2
+      - US_8091+@WangCai_1 3
       - 🇺🇸 美国(yudou66.com 玉豆分享) 2
-      - US_5600+ 3
-      - US_8008+ 2
-      - US_8118+ 3
-      - US_8090+
-      - US_9101+ 3
-      - US_8000+ 2
-      - 🇺🇸  - 美国加利福尼亚州洛杉矶MULTACOM数据中心 16
-      - 🇺🇸  - 美国CloudFlare节点 43
-      - 🇺🇸  - 美国弗吉尼亚州文特山农场OVH数据中心 8
+      - US_5600+@WangCai_1 3
+      - US_8008+@WangCai_1 2
+      - US_8118+@WangCai_1 3
+      - US_8090+@WangCai_1
+      - US_9101+@WangCai_1 3
+      - US_8000+@WangCai_1 2
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 16
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 43
+      - 🇺🇸 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 8
       - 🇺🇸 美国(youtube阿伟科技)
-      - US_7306+ 3
-      - US_0443+ 3
+      - US_7306+@WangCai_1 3
+      - US_0443+@WangCai_1 3
       - 🇺🇸 美国(yudou66.com 玉豆分享) 3
       - 🇺🇸 美国(yudou66.com 玉豆分享) 4
-      - 🇺🇸  - 美国  17
-      - 🇺🇸  - 美国弗吉尼亚州文特山农场OVH数据中心 6
-      - 🇺🇸  - 美国CloudFlare公司CDN节点 27
+      - 🇺🇸 github.com/freefq - 美国  17
+      - 🇺🇸 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 6
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 27
       - 🇺🇸 美国(yudou66.com 玉豆分享) 5
       - 🇺🇸 美国(yudou66.com 玉豆分享) 6
-      - 🇺🇸  - 美国CloudFlare节点 30
-      - 🇺🇸  - 美国加利福尼亚州洛杉矶MULTACOM数据中心 13
-      - 🇺🇸  - 美国弗吉尼亚州文特山农场OVH数据中心 10
-      - 🇺🇸  - 美国弗吉尼亚州文特山农场OVH数据中心 4
-      - US_5001+
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 30
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 13
+      - 🇺🇸 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 10
+      - 🇺🇸 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 4
+      - US_5001+@WangCai_1
       - 🇺🇸 美国(yudou66.com 玉豆分享) 7
       - 🇺🇸 美国(yudou66.com 玉豆分享) 8
       - 🇺🇸 美国(yudou66.com 玉豆分享) 9
       - 🇺🇸 美国(yudou66.com+玉豆分享) 2
       - 🇺🇸 _US_美国
-      - 🇺🇸  - 美国  1
-      - 🇺🇸  - 美国  40
-      - 🇺🇸  - 美国  28
-      - 🇺🇸  - 美国CloudFlare公司CDN节点 24
-      - 🇺🇸  - 美国  12
+      - 🇺🇸 github.com/freefq - 美国  1
+      - 🇺🇸 github.com/freefq - 美国  40
+      - 🇺🇸 github.com/freefq - 美国  28
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 24
+      - 🇺🇸 github.com/freefq - 美国  12
       - 🇺🇸 美国(yudou66.com 玉豆分享) 10
-      - 🇺🇸  - 美国CloudFlare节点 20
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 20
       - 🇺🇸 美国(yudou66.com 玉豆分享) 11
   - name: 🇨🇳 台湾节点
     type: select
@@ -462,7 +462,7 @@ proxy-groups:
   - name: 🇸🇬 狮城节点
     type: select
     proxies:
-      - 🇸🇬  - 新加坡Linode数据中心 25
+      - 🇸🇬 github.com/freefq - 新加坡Linode数据中心 25
   - name: 🇰🇷 韩国节点
     type: select
     proxies:
@@ -473,436 +473,436 @@ proxy-groups:
       - 🇨🇭 瑞士(youtube阿伟科技)
       - 🇯🇵 日本(youtube阿伟科技)
       - 🇺🇸 美国(youtube阿伟科技)
-      - 🇨🇦  - 加拿大  34
-      - 🇨🇦  - 加拿大  22
+      - 🇨🇦 github.com/freefq - 加拿大  34
+      - 🇨🇦 github.com/freefq - 加拿大  22
       - 🇩🇪 德国(yudou66.com 玉豆分享)
   - name: ♻️ 专线节点
     type: select
     proxies:
-      - US_6679+
-      - US_8091+
-      - US_2376+
-      - US_8009+
-      - US_6379+
-      - US_8009+ 2
-      - US_0443+
-      - US_9101+
-      - US_0443+ 2
-      - US_7307+
-      - US_8008+
-      - US_6379+ 2
-      - US_8118+
-      - US_7001+
-      - US_5004+
-      - US_5003+
-      - US_7002+
-      - US_8080+
-      - US_9101+ 2
-      - US_8881+
-      - US_7001+ 2
-      - US_5600+
-      - US_6697+
-      - US_6679+ 2
-      - US_8888+
-      - US_5004+ 2
-      - US_7306+
-      - US_3389+
-      - US_8009+ 3
-      - US_7306+ 2
-      - US_6697+ 2
-      - US_5600+ 2
-      - US_6697+ 3
-      - US_3306+
-      - ‌‌🇨🇦CA_0443+
-      - JP_5003+
-      - US_2376+ 2
-      - US_2376+ 3
-      - JP_9102+
-      - US_9102+
-      - US_7002+ 2
-      - JP_8009+
-      - JP_6697+
-      - ‌‌🇨🇦CA_8008+
-      - JP_7002+
-      - ‌‌🇨🇦CA_9102+
-      - US_8882+
-      - ‌‌🇨🇦CA_6379+
-      - US_7307+ 2
-      - US_5004+ 3
-      - US_5000+
-      - JP_8091+
-      - ‌‌🇨🇦CA_8881+
-      - US_5003+ 2
-      - US_8080+ 2
-      - JP_2376+
-      - US_8118+ 2
-      - JP_5600+
-      - ‌‌🇨🇦CA_8888+
-      - US_8882+ 2
-      - JP_8008+
-      - JP_5601+
-      - JP_7002+ 2
-      - JP_8888+
-      - US_3306+ 2
-      - US_5601+
-      - JP_6697+ 2
-      - JP_9101+
-      - JP_2376+ 2
-      - ‌‌🇨🇦CA_5600+
-      - JP_8080+
-      - JP_3306+
-      - JP_0443+
-      - JP_5500+
-      - JP_6679+
-      - JP_9101+ 2
-      - ‌‌🇨🇦CA_9101+
-      - JP_5003+ 2
-      - JP_2376+ 3
-      - US_8119+
-      - US_8119+ 2
-      - JP_8000+
-      - JP_8882+
-      - ‌‌🇨🇦CA_5000+
-      - JP_3306+ 2
-      - JP_6697+ 3
-      - JP_2375+
-      - US_5003+ 3
-      - US_8080+ 3
-      - JP_5600+ 2
-      - JP_8882+ 2
-      - JP_3389+
-      - JP_8888+ 2
-      - ‌‌🇨🇦CA_5500+
-      - JP_8008+ 2
-      - JP_0443+ 2
-      - JP_8881+
-      - JP_6379+
-      - JP_2375+ 2
-      - JP_8881+ 2
-      - JP_6379+ 2
-      - JP_7306+
-      - US_8888+ 2
-      - JP_6679+ 2
-      - JP_5004+
-      - JP_8000+ 2
-      - JP_8080+ 2
-      - JP_8009+ 2
-      - JP_2376+ 4
-      - US_2375+
-      - 🇺🇸  - 美国CloudFlare公司CDN节点 34
-      - JP_7307+
-      - JP_8009+ 3
-      - US_8881+ 2
-      - ‌‌🇨🇦CA_3306+
-      - US_5601+ 2
-      - JP_8000+ 3
-      - JP_8090+
-      - JP_7307+ 2
-      - US_7001+ 3
-      - US_5500+
-      - JP_9101+ 3
-      - US_8000+
-      - JP_2376+ 5
-      - US_2375+ 2
-      - JP_7306+ 2
-      - US_5000+ 2
-      - JP_8118+
-      - JP_2376+ 6
-      - JP_6697+ 4
-      - US_8091+ 2
-      - JP_9102+ 2
-      - ‌‌🇨🇦CA_6697+
-      - JP_7307+ 3
-      - JP_8119+
-      - JP_8118+ 2
-      - JP_8008+ 3
-      - JP_7002+ 3
-      - US_8091+ 3
-      - JP_5001+
-      - US_5600+ 3
-      - US_8008+ 2
-      - JP_7002+ 4
-      - JP_8119+ 2
-      - US_8118+ 3
-      - JP_2375+ 3
-      - JP_5004+ 2
-      - US_8090+
-      - JP_5001+ 2
-      - US_9101+ 3
-      - US_8000+ 2
-      - JP_5601+ 2
-      - 🇺🇸  - 美国加利福尼亚州洛杉矶MULTACOM数据中心 16
-      - 🇺🇸  - 美国CloudFlare节点 43
-      - US_7306+ 3
-      - JP_8119+ 3
-      - JP_8882+ 3
-      - US_0443+ 3
-      - JP_2375+ 4
-      - JP_0443+ 3
-      - JP_8090+ 2
-      - JP_5004+ 3
-      - 🇺🇸  - 美国CloudFlare公司CDN节点 27
-      - JP_0443+ 4
-      - JP_8091+ 2
-      - JP_5001+ 3
-      - JP_9101+ 4
-      - JP_5004+ 4
-      - JP_5600+ 3
-      - JP_3306+ 3
-      - 🇺🇸  - 美国CloudFlare节点 30
-      - 🇺🇸  - 美国加利福尼亚州洛杉矶MULTACOM数据中心 13
-      - US_5001+
-      - 🇺🇸  - 美国CloudFlare公司CDN节点 24
-      - 🇺🇸  - 美国CloudFlare节点 20
+      - US_6679+@WangCai_1
+      - US_8091+@WangCai_1
+      - US_2376+@WangCai_1
+      - US_8009+@WangCai_1
+      - US_6379+@WangCai_1
+      - US_8009+@WangCai_1 2
+      - US_0443+@WangCai_1
+      - US_9101+@WangCai_1
+      - US_0443+@WangCai_1 2
+      - US_7307+@WangCai_1
+      - US_8008+@WangCai_1
+      - US_6379+@WangCai_1 2
+      - US_8118+@WangCai_1
+      - US_7001+@WangCai_1
+      - US_5004+@WangCai_1
+      - US_5003+@WangCai_1
+      - US_7002+@WangCai_1
+      - US_8080+@WangCai_1
+      - US_9101+@WangCai_1 2
+      - US_8881+@WangCai_1
+      - US_7001+@WangCai_1 2
+      - US_5600+@WangCai_1
+      - US_6697+@WangCai_1
+      - US_6679+@WangCai_1 2
+      - US_8888+@WangCai_1
+      - US_5004+@WangCai_1 2
+      - US_7306+@WangCai_1
+      - US_3389+@WangCai_1
+      - US_8009+@WangCai_1 3
+      - US_7306+@WangCai_1 2
+      - US_6697+@WangCai_1 2
+      - US_5600+@WangCai_1 2
+      - US_6697+@WangCai_1 3
+      - US_3306+@WangCai_1
+      - ‌‌🇨🇦CA_0443+@WangCai_1
+      - JP_5003+@WangCai_1
+      - US_2376+@WangCai_1 2
+      - US_2376+@WangCai_1 3
+      - JP_9102+@WangCai_1
+      - US_9102+@WangCai_1
+      - US_7002+@WangCai_1 2
+      - JP_8009+@WangCai_1
+      - JP_6697+@WangCai_1
+      - ‌‌🇨🇦CA_8008+@WangCai_1
+      - JP_7002+@WangCai_1
+      - ‌‌🇨🇦CA_9102+@WangCai_1
+      - US_8882+@WangCai_1
+      - ‌‌🇨🇦CA_6379+@WangCai_1
+      - US_7307+@WangCai_1 2
+      - US_5004+@WangCai_1 3
+      - US_5000+@WangCai_1
+      - JP_8091+@WangCai_1
+      - ‌‌🇨🇦CA_8881+@WangCai_1
+      - US_5003+@WangCai_1 2
+      - US_8080+@WangCai_1 2
+      - JP_2376+@WangCai_1
+      - US_8118+@WangCai_1 2
+      - JP_5600+@WangCai_1
+      - ‌‌🇨🇦CA_8888+@WangCai_1
+      - US_8882+@WangCai_1 2
+      - JP_8008+@WangCai_1
+      - JP_5601+@WangCai_1
+      - JP_7002+@WangCai_1 2
+      - JP_8888+@WangCai_1
+      - US_3306+@WangCai_1 2
+      - US_5601+@WangCai_1
+      - JP_6697+@WangCai_1 2
+      - JP_9101+@WangCai_1
+      - JP_2376+@WangCai_1 2
+      - ‌‌🇨🇦CA_5600+@WangCai_1
+      - JP_8080+@WangCai_1
+      - JP_3306+@WangCai_1
+      - JP_0443+@WangCai_1
+      - JP_5500+@WangCai_1
+      - JP_6679+@WangCai_1
+      - JP_9101+@WangCai_1 2
+      - ‌‌🇨🇦CA_9101+@WangCai_1
+      - JP_5003+@WangCai_1 2
+      - JP_2376+@WangCai_1 3
+      - US_8119+@WangCai_1
+      - US_8119+@WangCai_1 2
+      - JP_8000+@WangCai_1
+      - JP_8882+@WangCai_1
+      - ‌‌🇨🇦CA_5000+@WangCai_1
+      - JP_3306+@WangCai_1 2
+      - JP_6697+@WangCai_1 3
+      - JP_2375+@WangCai_1
+      - US_5003+@WangCai_1 3
+      - US_8080+@WangCai_1 3
+      - JP_5600+@WangCai_1 2
+      - JP_8882+@WangCai_1 2
+      - JP_3389+@WangCai_1
+      - JP_8888+@WangCai_1 2
+      - ‌‌🇨🇦CA_5500+@WangCai_1
+      - JP_8008+@WangCai_1 2
+      - JP_0443+@WangCai_1 2
+      - JP_8881+@WangCai_1
+      - JP_6379+@WangCai_1
+      - JP_2375+@WangCai_1 2
+      - JP_8881+@WangCai_1 2
+      - JP_6379+@WangCai_1 2
+      - JP_7306+@WangCai_1
+      - US_8888+@WangCai_1 2
+      - JP_6679+@WangCai_1 2
+      - JP_5004+@WangCai_1
+      - JP_8000+@WangCai_1 2
+      - JP_8080+@WangCai_1 2
+      - JP_8009+@WangCai_1 2
+      - JP_2376+@WangCai_1 4
+      - US_2375+@WangCai_1
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 34
+      - JP_7307+@WangCai_1
+      - JP_8009+@WangCai_1 3
+      - US_8881+@WangCai_1 2
+      - ‌‌🇨🇦CA_3306+@WangCai_1
+      - US_5601+@WangCai_1 2
+      - JP_8000+@WangCai_1 3
+      - JP_8090+@WangCai_1
+      - JP_7307+@WangCai_1 2
+      - US_7001+@WangCai_1 3
+      - US_5500+@WangCai_1
+      - JP_9101+@WangCai_1 3
+      - US_8000+@WangCai_1
+      - JP_2376+@WangCai_1 5
+      - US_2375+@WangCai_1 2
+      - JP_7306+@WangCai_1 2
+      - US_5000+@WangCai_1 2
+      - JP_8118+@WangCai_1
+      - JP_2376+@WangCai_1 6
+      - JP_6697+@WangCai_1 4
+      - US_8091+@WangCai_1 2
+      - JP_9102+@WangCai_1 2
+      - ‌‌🇨🇦CA_6697+@WangCai_1
+      - JP_7307+@WangCai_1 3
+      - JP_8119+@WangCai_1
+      - JP_8118+@WangCai_1 2
+      - JP_8008+@WangCai_1 3
+      - JP_7002+@WangCai_1 3
+      - US_8091+@WangCai_1 3
+      - JP_5001+@WangCai_1
+      - US_5600+@WangCai_1 3
+      - US_8008+@WangCai_1 2
+      - JP_7002+@WangCai_1 4
+      - JP_8119+@WangCai_1 2
+      - US_8118+@WangCai_1 3
+      - JP_2375+@WangCai_1 3
+      - JP_5004+@WangCai_1 2
+      - US_8090+@WangCai_1
+      - JP_5001+@WangCai_1 2
+      - US_9101+@WangCai_1 3
+      - US_8000+@WangCai_1 2
+      - JP_5601+@WangCai_1 2
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 16
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 43
+      - US_7306+@WangCai_1 3
+      - JP_8119+@WangCai_1 3
+      - JP_8882+@WangCai_1 3
+      - US_0443+@WangCai_1 3
+      - JP_2375+@WangCai_1 4
+      - JP_0443+@WangCai_1 3
+      - JP_8090+@WangCai_1 2
+      - JP_5004+@WangCai_1 3
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 27
+      - JP_0443+@WangCai_1 4
+      - JP_8091+@WangCai_1 2
+      - JP_5001+@WangCai_1 3
+      - JP_9101+@WangCai_1 4
+      - JP_5004+@WangCai_1 4
+      - JP_5600+@WangCai_1 3
+      - JP_3306+@WangCai_1 3
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 30
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 13
+      - US_5001+@WangCai_1
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 24
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 20
   - name: ♻️ 手动切换
     type: select
     proxies:
-      - US_6679+
-      - US_8091+
-      - US_2376+
-      - US_8009+
-      - US_6379+
-      - US_8009+ 2
-      - US_0443+
-      - US_9101+
-      - US_0443+ 2
-      - US_7307+
+      - US_6679+@WangCai_1
+      - US_8091+@WangCai_1
+      - US_2376+@WangCai_1
+      - US_8009+@WangCai_1
+      - US_6379+@WangCai_1
+      - US_8009+@WangCai_1 2
+      - US_0443+@WangCai_1
+      - US_9101+@WangCai_1
+      - US_0443+@WangCai_1 2
+      - US_7307+@WangCai_1
       - 🇨🇭 瑞士(youtube阿伟科技)
-      - US_8008+
-      - US_6379+ 2
-      - US_8118+
-      - US_7001+
-      - US_5004+
-      - US_5003+
-      - US_7002+
-      - 🇫🇮  - 芬兰  15
-      - US_8080+
-      - US_9101+ 2
-      - US_8881+
-      - US_7001+ 2
-      - US_5600+
-      - _
-      - US_6697+
-      - US_6679+ 2
-      - US_8888+
-      - US_5004+ 2
-      - US_7306+
-      - US_3389+
-      - US_8009+ 3
-      - US_7306+ 2
-      - US_6697+ 2
-      - US_5600+ 2
-      - US_6697+ 3
-      - US_3306+
-      - ‌‌🇨🇦CA_0443+
-      - JP_5003+
-      - US_2376+ 2
-      - US_2376+ 3
-      - JP_9102+
-      - US_9102+
-      - US_7002+ 2
-      - JP_8009+
-      - _ 2
-      - JP_6697+
-      - ‌‌🇨🇦CA_8008+
-      - JP_7002+
-      - ‌‌🇨🇦CA_9102+
-      - US_8882+
-      - ‌‌🇨🇦CA_6379+
-      - US_7307+ 2
-      - US_5004+ 3
-      - US_5000+
-      - JP_8091+
-      - ‌‌🇨🇦CA_8881+
-      - US_5003+ 2
-      - 🇯🇵  - 日本东京Oracle数据中心 2
-      - US_8080+ 2
-      - JP_2376+
-      - US_8118+ 2
-      - _ 3
-      - JP_5600+
-      - ‌‌🇨🇦CA_8888+
-      - US_8882+ 2
-      - JP_8008+
-      - JP_5601+
-      - JP_7002+ 2
-      - JP_8888+
-      - US_3306+ 2
-      - US_5601+
-      - JP_6697+ 2
-      - JP_9101+
-      - JP_2376+ 2
-      - ‌‌🇨🇦CA_5600+
-      - JP_8080+
-      - JP_3306+
-      - JP_0443+
-      - JP_5500+
-      - JP_6679+
-      - JP_9101+ 2
-      - ‌‌🇨🇦CA_9101+
-      - JP_5003+ 2
-      - JP_2376+ 3
-      - US_8119+
-      - US_8119+ 2
-      - JP_8000+
-      - JP_8882+
-      - ‌‌🇨🇦CA_5000+
-      - JP_3306+ 2
-      - JP_6697+ 3
-      - JP_2375+
-      -  - 乌克兰  26
-      - US_5003+ 3
-      - US_8080+ 3
-      - JP_5600+ 2
-      - JP_8882+ 2
-      - JP_3389+
-      - JP_8888+ 2
-      - ‌‌🇨🇦CA_5500+
-      - 🇺🇸  - 美国  8
-      - JP_8008+ 2
-      - JP_0443+ 2
-      - JP_8881+
-      - JP_6379+
+      - US_8008+@WangCai_1
+      - US_6379+@WangCai_1 2
+      - US_8118+@WangCai_1
+      - US_7001+@WangCai_1
+      - US_5004+@WangCai_1
+      - US_5003+@WangCai_1
+      - US_7002+@WangCai_1
+      - 🇫🇮 github.com/freefq - 芬兰  15
+      - US_8080+@WangCai_1
+      - US_9101+@WangCai_1 2
+      - US_8881+@WangCai_1
+      - US_7001+@WangCai_1 2
+      - US_5600+@WangCai_1
+      - _油管：全网最强白嫖
+      - US_6697+@WangCai_1
+      - US_6679+@WangCai_1 2
+      - US_8888+@WangCai_1
+      - US_5004+@WangCai_1 2
+      - US_7306+@WangCai_1
+      - US_3389+@WangCai_1
+      - US_8009+@WangCai_1 3
+      - US_7306+@WangCai_1 2
+      - US_6697+@WangCai_1 2
+      - US_5600+@WangCai_1 2
+      - US_6697+@WangCai_1 3
+      - US_3306+@WangCai_1
+      - ‌‌🇨🇦CA_0443+@WangCai_1
+      - JP_5003+@WangCai_1
+      - US_2376+@WangCai_1 2
+      - US_2376+@WangCai_1 3
+      - JP_9102+@WangCai_1
+      - US_9102+@WangCai_1
+      - US_7002+@WangCai_1 2
+      - JP_8009+@WangCai_1
+      - _油管：全网最强白嫖 2
+      - JP_6697+@WangCai_1
+      - ‌‌🇨🇦CA_8008+@WangCai_1
+      - JP_7002+@WangCai_1
+      - ‌‌🇨🇦CA_9102+@WangCai_1
+      - US_8882+@WangCai_1
+      - ‌‌🇨🇦CA_6379+@WangCai_1
+      - US_7307+@WangCai_1 2
+      - US_5004+@WangCai_1 3
+      - US_5000+@WangCai_1
+      - JP_8091+@WangCai_1
+      - ‌‌🇨🇦CA_8881+@WangCai_1
+      - US_5003+@WangCai_1 2
+      - 🇯🇵 github.com/freefq - 日本东京Oracle数据中心 2
+      - US_8080+@WangCai_1 2
+      - JP_2376+@WangCai_1
+      - US_8118+@WangCai_1 2
+      - _油管：全网最强白嫖 3
+      - JP_5600+@WangCai_1
+      - ‌‌🇨🇦CA_8888+@WangCai_1
+      - US_8882+@WangCai_1 2
+      - JP_8008+@WangCai_1
+      - JP_5601+@WangCai_1
+      - JP_7002+@WangCai_1 2
+      - JP_8888+@WangCai_1
+      - US_3306+@WangCai_1 2
+      - US_5601+@WangCai_1
+      - JP_6697+@WangCai_1 2
+      - JP_9101+@WangCai_1
+      - JP_2376+@WangCai_1 2
+      - ‌‌🇨🇦CA_5600+@WangCai_1
+      - JP_8080+@WangCai_1
+      - JP_3306+@WangCai_1
+      - JP_0443+@WangCai_1
+      - JP_5500+@WangCai_1
+      - JP_6679+@WangCai_1
+      - JP_9101+@WangCai_1 2
+      - ‌‌🇨🇦CA_9101+@WangCai_1
+      - JP_5003+@WangCai_1 2
+      - JP_2376+@WangCai_1 3
+      - US_8119+@WangCai_1
+      - US_8119+@WangCai_1 2
+      - JP_8000+@WangCai_1
+      - JP_8882+@WangCai_1
+      - ‌‌🇨🇦CA_5000+@WangCai_1
+      - JP_3306+@WangCai_1 2
+      - JP_6697+@WangCai_1 3
+      - JP_2375+@WangCai_1
+      - github.com/freefq - 乌克兰  26
+      - US_5003+@WangCai_1 3
+      - US_8080+@WangCai_1 3
+      - JP_5600+@WangCai_1 2
+      - JP_8882+@WangCai_1 2
+      - JP_3389+@WangCai_1
+      - JP_8888+@WangCai_1 2
+      - ‌‌🇨🇦CA_5500+@WangCai_1
+      - 🇺🇸 github.com/freefq - 美国  8
+      - JP_8008+@WangCai_1 2
+      - JP_0443+@WangCai_1 2
+      - JP_8881+@WangCai_1
+      - JP_6379+@WangCai_1
       - 🇯🇵 日本(youtube阿伟科技)
-      - JP_2375+ 2
-      - JP_8881+ 2
-      - JP_6379+ 2
-      - JP_7306+
-      - US_8888+ 2
-      - JP_6679+ 2
-      - JP_5004+
-      - JP_8000+ 2
-      - JP_8080+ 2
-      - JP_8009+ 2
-      - JP_2376+ 4
-      - US_2375+
-      - _ 4
-      - 🇺🇸  - 美国CloudFlare公司CDN节点 34
-      - JP_7307+
-      - JP_8009+ 3
-      - US_8881+ 2
-      - ‌‌🇨🇦CA_3306+
-      - US_5601+ 2
-      - JP_8000+ 3
+      - JP_2375+@WangCai_1 2
+      - JP_8881+@WangCai_1 2
+      - JP_6379+@WangCai_1 2
+      - JP_7306+@WangCai_1
+      - US_8888+@WangCai_1 2
+      - JP_6679+@WangCai_1 2
+      - JP_5004+@WangCai_1
+      - JP_8000+@WangCai_1 2
+      - JP_8080+@WangCai_1 2
+      - JP_8009+@WangCai_1 2
+      - JP_2376+@WangCai_1 4
+      - US_2375+@WangCai_1
+      - _油管：全网最强白嫖 4
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 34
+      - JP_7307+@WangCai_1
+      - JP_8009+@WangCai_1 3
+      - US_8881+@WangCai_1 2
+      - ‌‌🇨🇦CA_3306+@WangCai_1
+      - US_5601+@WangCai_1 2
+      - JP_8000+@WangCai_1 3
       - 🇺🇸 美国(yudou66.com+玉豆分享)
-      - JP_8090+
-      - JP_7307+ 2
-      - US_7001+ 3
-      - US_5500+
-      - JP_9101+ 3
-      - US_8000+
-      - JP_2376+ 5
-      - US_2375+ 2
-      - JP_7306+ 2
-      - _ 5
-      - _ 6
-      - _ 7
-      - _ 8
-      -  - 欧盟  5
+      - JP_8090+@WangCai_1
+      - JP_7307+@WangCai_1 2
+      - US_7001+@WangCai_1 3
+      - US_5500+@WangCai_1
+      - JP_9101+@WangCai_1 3
+      - US_8000+@WangCai_1
+      - JP_2376+@WangCai_1 5
+      - US_2375+@WangCai_1 2
+      - JP_7306+@WangCai_1 2
+      - _油管：全网最强白嫖 5
+      - _油管：全网最强白嫖 6
+      - _油管：全网最强白嫖 7
+      - _油管：全网最强白嫖 8
+      - github.com/freefq - 欧盟  5
       - 🇺🇸 美国(yudou66.com 玉豆分享)
-      - US_5000+ 2
-      - JP_8118+
-      - JP_2376+ 6
-      - JP_6697+ 4
-      - US_8091+ 2
-      - JP_9102+ 2
-      - ‌‌🇨🇦CA_6697+
-      - JP_7307+ 3
-      - JP_8119+
-      - JP_8118+ 2
-      - JP_8008+ 3
-      - _ 9
-      - JP_7002+ 3
-      - US_8091+ 3
-      - JP_5001+
+      - US_5000+@WangCai_1 2
+      - JP_8118+@WangCai_1
+      - JP_2376+@WangCai_1 6
+      - JP_6697+@WangCai_1 4
+      - US_8091+@WangCai_1 2
+      - JP_9102+@WangCai_1 2
+      - ‌‌🇨🇦CA_6697+@WangCai_1
+      - JP_7307+@WangCai_1 3
+      - JP_8119+@WangCai_1
+      - JP_8118+@WangCai_1 2
+      - JP_8008+@WangCai_1 3
+      - _油管：全网最强白嫖 9
+      - JP_7002+@WangCai_1 3
+      - US_8091+@WangCai_1 3
+      - JP_5001+@WangCai_1
       - 🇭🇰 香港(yudou66.com+玉豆分享)
       - 🇺🇸 美国(yudou66.com 玉豆分享) 2
-      - 🇯🇵  - 日本东京都Amazon数据中心 1
-      - US_5600+ 3
-      - US_8008+ 2
-      - JP_7002+ 4
-      - JP_8119+ 2
-      - US_8118+ 3
-      - JP_2375+ 3
-      - JP_5004+ 2
-      - US_8090+
-      - JP_5001+ 2
-      - US_9101+ 3
-      - _ 10
-      - US_8000+ 2
-      - JP_5601+ 2
-      - 🇺🇸  - 美国加利福尼亚州洛杉矶MULTACOM数据中心 16
+      - 🇯🇵 github.com/freefq - 日本东京都Amazon数据中心 1
+      - US_5600+@WangCai_1 3
+      - US_8008+@WangCai_1 2
+      - JP_7002+@WangCai_1 4
+      - JP_8119+@WangCai_1 2
+      - US_8118+@WangCai_1 3
+      - JP_2375+@WangCai_1 3
+      - JP_5004+@WangCai_1 2
+      - US_8090+@WangCai_1
+      - JP_5001+@WangCai_1 2
+      - US_9101+@WangCai_1 3
+      - _油管：全网最强白嫖 10
+      - US_8000+@WangCai_1 2
+      - JP_5601+@WangCai_1 2
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 16
       - 乌克兰(yudou66.com+玉豆分享)
-      - 🇺🇸  - 美国CloudFlare节点 43
-      -  - 广东省珠海市电信 9
-      - 🇺🇸  - 美国弗吉尼亚州文特山农场OVH数据中心 8
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 43
+      - github.com/freefq - 广东省珠海市电信 9
+      - 🇺🇸 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 8
       - 🇺🇸 美国(youtube阿伟科技)
-      - US_7306+ 3
-      - JP_8119+ 3
-      - JP_8882+ 3
-      - US_0443+ 3
-      - JP_2375+ 4
+      - US_7306+@WangCai_1 3
+      - JP_8119+@WangCai_1 3
+      - JP_8882+@WangCai_1 3
+      - US_0443+@WangCai_1 3
+      - JP_2375+@WangCai_1 4
       - 🇺🇸 美国(yudou66.com 玉豆分享) 3
-      - JP_0443+ 3
-      - JP_8090+ 2
-      - JP_5004+ 3
-      - _ 11
-      - _ 12
+      - JP_0443+@WangCai_1 3
+      - JP_8090+@WangCai_1 2
+      - JP_5004+@WangCai_1 3
+      - _油管：全网最强白嫖 11
+      - _油管：全网最强白嫖 12
       - 🇺🇸 美国(yudou66.com 玉豆分享) 4
-      - _ 13
-      - 🇸🇬  - 新加坡Linode数据中心 25
-      - 🇺🇸  - 美国  17
-      - 🇮🇷  - 伊朗  44
-      - 🇮🇷  - 伊朗  31
-      - 🇺🇸  - 美国弗吉尼亚州文特山农场OVH数据中心 6
-      - 🇨🇦  - 加拿大  34
-      - 🇺🇸  - 美国CloudFlare公司CDN节点 27
+      - _油管：全网最强白嫖 13
+      - 🇸🇬 github.com/freefq - 新加坡Linode数据中心 25
+      - 🇺🇸 github.com/freefq - 美国  17
+      - 🇮🇷 github.com/freefq - 伊朗  44
+      - 🇮🇷 github.com/freefq - 伊朗  31
+      - 🇺🇸 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 6
+      - 🇨🇦 github.com/freefq - 加拿大  34
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 27
       - 🇺🇸 美国(yudou66.com 玉豆分享) 5
-      - JP_0443+ 4
+      - JP_0443+@WangCai_1 4
       - 🇺🇸 美国(yudou66.com 玉豆分享) 6
       - 🇯🇵 _JP_日本
-      - JP_8091+ 2
-      - _ 14
-      - JP_5001+ 3
+      - JP_8091+@WangCai_1 2
+      - _油管：全网最强白嫖 14
+      - JP_5001+@WangCai_1 3
       - 🇯🇵 _JP_日本 2
-      - JP_9101+ 4
-      - JP_5004+ 4
-      - JP_5600+ 3
-      - JP_3306+ 3
-      - 🇺🇸  - 美国CloudFlare节点 30
-      - 🇨🇿  - 捷克布拉格Friendhosting有限责任公司 28
-      - _ 15
-      - 🇺🇸  - 美国加利福尼亚州洛杉矶MULTACOM数据中心 13
-      - 🇺🇸  - 美国弗吉尼亚州文特山农场OVH数据中心 10
-      - 🇮🇷  - 伊朗  32
-      - 🇨🇳  - 广东省广州市移动 30
-      -  - 欧盟  42
-      - 🇺🇸  - 美国弗吉尼亚州文特山农场OVH数据中心 4
-      - US_5001+
+      - JP_9101+@WangCai_1 4
+      - JP_5004+@WangCai_1 4
+      - JP_5600+@WangCai_1 3
+      - JP_3306+@WangCai_1 3
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 30
+      - 🇨🇿 github.com/freefq - 捷克布拉格Friendhosting有限责任公司 28
+      - _油管：全网最强白嫖 15
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 13
+      - 🇺🇸 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 10
+      - 🇮🇷 github.com/freefq - 伊朗  32
+      - 🇨🇳 github.com/freefq - 广东省广州市移动 30
+      - github.com/freefq - 欧盟  42
+      - 🇺🇸 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 4
+      - US_5001+@WangCai_1
       - 🇺🇸 美国(yudou66.com 玉豆分享) 7
-      - _ 16
+      - _油管：全网最强白嫖 16
       - 🇺🇸 美国(yudou66.com 玉豆分享) 8
       - 🇺🇸 美国(yudou66.com 玉豆分享) 9
       - 🇺🇸 美国(yudou66.com+玉豆分享) 2
       - 🇺🇸 _US_美国
-      - 🇺🇸  - 美国  1
-      - 🇺🇸  - 美国  40
-      - 🇺🇸  - 美国  28
-      - 🇺🇸  - 美国CloudFlare公司CDN节点 24
-      - 🇺🇸  - 美国  12
+      - 🇺🇸 github.com/freefq - 美国  1
+      - 🇺🇸 github.com/freefq - 美国  40
+      - 🇺🇸 github.com/freefq - 美国  28
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 24
+      - 🇺🇸 github.com/freefq - 美国  12
       - 🇺🇸 美国(yudou66.com 玉豆分享) 10
-      - 🇺🇸  - 美国CloudFlare节点 20
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 20
       - 🇺🇸 美国(yudou66.com 玉豆分享) 11
-      - 🇨🇦  - 加拿大  22
-      - _ 17
-      - _ 18
-      - _ 19
+      - 🇨🇦 github.com/freefq - 加拿大  22
+      - _油管：全网最强白嫖 17
+      - _油管：全网最强白嫖 18
+      - _油管：全网最强白嫖 19
       - 🇪🇺 欧洲(yudou66.com 玉豆分享)
-      - _ 20
+      - _油管：全网最强白嫖 20
       - 🇩🇪 德国(yudou66.com 玉豆分享)
-      - _ 21
-      - _ 22
-      - _ 23
+      - _油管：全网最强白嫖 21
+      - _油管：全网最强白嫖 22
+      - _油管：全网最强白嫖 23
   - name: 📲 聊天软件
     type: select
     proxies:
